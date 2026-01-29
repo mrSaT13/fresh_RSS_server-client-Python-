@@ -29,16 +29,20 @@ git clone https://github.com/mrSaT13/freshrss-pro.git
 cd freshrss-pro
 pip install -r requirements.txt
 python freshrss_pro.py
-
+```
 ### Сборка в EXE (опционально)
+```
 pip install pyinstaller
 pyinstaller --onedir --windowed --icon="freshrss_pro.ico" --add-data "freshrss_pro.ico;." freshrss_pro.py
+```
 
 
-### ⚙️ Настройка FreshRSS
+### ⚙️Установка ⚙️ Настройка FreshRSS
+
 URL должен иметь вид:
 https://ваш-сервер/i/?a=rss&user=ИМЯ&token=ТОКЕН&hours=168
 
-### 📦 Зависимости
+### ⚙️Установка📦 Зависимости
+
 См. requirements.txt
 
