@@ -1,0 +1,8 @@
+customtkinter
+pyttsx3
+feedparser
+beautifulsoup4
+requests
+Pillow
+plyer
+pystray
